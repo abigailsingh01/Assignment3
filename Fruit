@@ -1,0 +1,38 @@
+class Fruit 
+{
+    String name;
+    String taste;
+    int size;
+
+    public void eat()
+    {
+        System.out.println(" Name: " + this.name + " . " + " Taste: " + this.taste);
+    }
+}
+
+class Apple extends Fruit
+{   
+    String name = "Apple";
+    String taste = "Sweet";
+   
+
+    public void eat()
+    {
+        System.out.println("This fruit’s name is : "  +  this.name +  " .  " +  "This fruit’s name is: " + this.taste +  " .  " );
+    }
+}
+
+class Orange extends Fruit
+{
+    String name = "Orange";
+    String taste = "Sour";
+
+
+    public void eat()
+    {
+        System.out.println("This fruit’s name is : "  +  this.name +  " .  " +  " This fruit’s name is: " + this.taste +  " .  ");
+    }
+}
+
+
+
